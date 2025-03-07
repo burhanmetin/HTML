@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zar Atma Oyunu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .dice {
+            width: 100px;
+            height: 100px;
+            margin: 0 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zar Atma Oyunu</h1>
+        <div>
+            <img id="dice1" class="dice" src="1.png" alt="Zar 1">
+            <img id="dice2" class="dice" src="1.png" alt="Zar 2">
+        </div>
+        <button onclick="rollDice()">Zarları At</button>
+    </div>
+    
+    <script>
+        function rollDice() {
+            // Zar resimlerini seç
+            const dice1 = document.getElementById('dice1');
+            const dice2 = document.getElementById('dice2');
+            
+            // Zar değerlerini rastgele seç
+            const roll1 = Math.floor(Math.random() * 6) + 1;
+            const roll2 = Math.floor(Math.random() * 6) + 1;
+            
+            // Zar resimlerini güncelle
+            dice1.src = roll1 + '.png';
+            dice2.src = roll2 + '.png';
+        }
+    </script>
+</body>
+</html>

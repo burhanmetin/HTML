@@ -1,0 +1,31 @@
+<Bestellung>
+	<Auftraege>
+		<Auftrag>
+			<Header>
+				<Vorgangsdatum>2024-12-11</Vorgangsdatum>
+				<Liefertermin>2024-12-12</Liefertermin>
+				<Auftragsnummer>1429795</Auftragsnummer>
+				<Auftragsbezeichnung>61371144</Auftragsbezeichnung>
+			</Header>
+			<Versand>
+				<Versandart>INTERN</Versandart>
+				<Lieferadresse>
+					<LF_Name1>Esser printSolutions GmbH</LF_Name1>
+					<LF_Name2>Abteilung Haufe Kommissionierung</LF_Name2>
+					<LF_Strasse>Westl. Gewerbestr. 6</LF_Strasse>
+					<LF_PLZ>75015</LF_PLZ>
+					<LF_Ort>Bretten</LF_Ort>
+					<LF_Land>DE</LF_Land>
+				</Lieferadresse>
+			</Versand>
+			<Positionen>
+				<Position>
+					<PsoitionNr>1</PsoitionNr>
+					<Artikelnummer>9783648177266</Artikelnummer>
+					<Bezeichnung1>TA-Guide E01358 Konfl erfolgr managen</Bezeichnung1>
+					<Menge>1</Menge>
+				</Position>
+			</Positionen>
+		</Auftrag>
+	</Auftraege>
+</Bestellung>
